@@ -14,6 +14,12 @@ if T.myclass == "WIZARD" then
 	C.unitframes.enemyhcolor = true
 end
 
+if T.myclass == "Baron" then
+	C.actionbar.hotkey = false
+	C.actionbar.hideshapeshift = true
+	C.unitframes.enemyhcolor = true
+end
+
 ---------------------------------------------------------------------------
 -- Per Character Name Config (overwrite /Tukui/config/config.lua and class)
 -- Name need to be case sensitive
